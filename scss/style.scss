@@ -1,0 +1,166 @@
+@import './config.scss';    
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.ttf');
+}
+
+
+
+body{
+    background-color: $maincolor;
+    font-family: 'Roboto';
+}
+.head-container{
+    height: 700px;
+
+}
+
+
+
+.head-box ul{
+    display: flex;
+    gap: 42px;
+    margin-top: 70px;
+    list-style: none;
+}
+
+.head-box a{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+li >a:hover{
+    color: $backcolor;
+}
+
+.head-box{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.title-name{
+    display: flex;
+    flex-direction: column;
+    margin: 162px 0 0 30px;
+    gap: 60px;
+}
+
+.title-name h1{
+    font-size: 48px;
+}
+
+.title-name p{
+    color: $textcolor;
+    @include chas;
+
+}
+
+
+.btn{
+    width: 227px;
+    height: 65px;
+    background-color: $backcolor;
+    color:white;
+    border: none;
+}
+
+.second-box{
+    height: 400px;
+    background-color:white;
+}
+.second-name{
+    width: 540px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 90px;
+    gap: 20px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.second-name p{
+    @include chas;
+    color: $textcolor;
+}
+
+.icon-box{
+    height: 250px;
+    background-color: $backcolor;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.third-box{
+    height: 400px;
+}
+
+.third-name{
+    width: 540px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 90px;
+    gap: 20px;
+}
+
+.third-name p{
+    @include chas;
+    color: $textcolor;
+}
+
+.image-box{
+    height: 700px;
+}
+
+
+.image-container {
+    background-image: url("../images/image-back.png");
+    background-size: 1110px;
+    width: 1110px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.image-container img{
+    margin-left: 505px ;
+    padding-top: 250px;
+}
+
+.bottom-box{
+    height: 151px;
+    background-color: $backcolor;
+}
+
+footer{
+    width: 1250px;
+    margin: 0 auto;
+}
+.bottom-box h3{
+    padding-top: 50px;
+    color: white;
+    font-size: 21px;
+    font-weight: 500;
+}
+.bottom-box p{
+color:white;
+font-size: 13px;
+font-weight: 400;
+
+}
